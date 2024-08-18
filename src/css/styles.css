@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #343a40;
+}
+
+.tema-lista a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.tema-lista a:hover {
+    color: #0056b3;
+}
+
+.tema-lista li {
+    padding: 10px 0;
+}

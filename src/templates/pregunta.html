@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pregunta</title>
+</head>
+<body>
+    <h1>{{ pregunta['pregunta'] }}</h1>
+    <form action="{{ url_for('verificar_respuesta') }}" method="post">
+        {% for i in range(3) %}
+        <input type="radio" name="opcion" value="{{ i }}"> {{ pregunta['opciones'][i] }}<br>
+        {% endfor %}
+        <input type="hidden" name="tema" value="{{ tema }}">
+        <input type="hidden" name="pregunta" value="{{ pregunta['pregunta'] }}">
+        <input type="hidden" name="respuesta_correcta" value="{{ pregunta['respuesta_correcta'] }}">
+        <input type="hidden" name="respuesta_correcta_text" value="{{ pregunta['opciones'][pregunta['respuesta_correcta']] }}">
+        <input type="submit" value="Enviar Respuesta">
+    </form>
+</body>
+</html>

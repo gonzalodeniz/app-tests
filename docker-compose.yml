@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app-tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: soygonzalodeniz/app-tests:0.0.1
+    container_name: app-tests
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./src:/app:ro
