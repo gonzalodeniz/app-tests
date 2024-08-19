@@ -1,0 +1,44 @@
+body {    
+    background-color: #94c3f3; 
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #343a40;
+    font-size: large;
+}
+
+input[type="radio"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;    
+    transform: scale(2);
+}
+
+
+.tema-lista a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.tema-lista a:hover {
+    color: #0056b3;
+}
+
+.tema-lista li {
+    padding: 10px 0;
+}
+
+.respuesta {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;    
+}
+
+
+

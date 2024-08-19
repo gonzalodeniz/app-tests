@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Resultado</title>
-</head>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cuestionario</title>
+        <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+        <!-- Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <!-- Bootstrap JS and dependencies -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
+    </head>
 <body>
-    <h1>{{ resultado }}</h1>
-    <a href="{{ url_for('hacer_pregunta', tema=tema) }}">Siguiente Pregunta</a>
-    <br>
-    <a href="{{ url_for('index') }}">Volver a los temas</a>
+    <div class="container">
+        <h1 class="text-center">{{ resultado }}</h1>
+        <a href="{{ url_for('hacer_pregunta', tema=tema) }}" class="d-block py-2 px-3 bg-white rounded shadow-sm">Siguiente Pregunta</a>
+        <br>
+        <a href="{{ url_for('index') }}" class="d-block py-2 px-3 bg-white rounded shadow-sm">Volver a los temas</a>
+    </div>
 </body>
 </html>

@@ -1,21 +1,21 @@
 from flask import Flask, render_template, request, redirect, url_for
 import random
+import json
 
 app = Flask(__name__)
 
 from preguntas.auxadm2024 import cuestionario
 
-
 @app.route('/')
 def index():
-    temas = list(cuestionario.keys())
+    temas = list(cuestionario.keys())        
     return render_template('index.html', temas=temas)
 
 @app.route('/pregunta/<tema>')
 def hacer_pregunta(tema):
-    preguntas = cuestionario[tema]
-    pregunta = random.choice(preguntas)
-    
+    tema_con_preguntas = cuestionario[tema]
+    pregunta = random.choice(tema_con_preguntas['banco_de_preguntas'])
+   
     return render_template('pregunta.html', tema=tema, pregunta=pregunta)
 
 @app.route('/respuesta', methods=['POST'])
@@ -28,7 +28,7 @@ def verificar_respuesta():
     if respuesta_seleccionada == respuesta_correcta:
         resultado = "¡Correcto!"
     else:
-        resultado = f"Incorrecto. La respuesta correcta era: {request.form['respuesta_correcta_text']}"
+        resultado = f"Incorrecto"
 
     return render_template('resultado.html', resultado=resultado, tema=tema)
 

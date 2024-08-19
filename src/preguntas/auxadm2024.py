@@ -1,7 +1,7 @@
 cuestionario = {
   "Tema 1":{
       "titulo":"El acto administrativo: Concepto, clases y elementos. Eficacia y validez de los actos    administrativos. Motivación, notificación y publicación. Nulidad y anulabilidad de los actos administrativos. Conversión, conservación y convalidación.", 
-      "preguntas": [
+      "banco_de_preguntas": [
         {
           "pregunta": "De conformidad con lo establecido en el artículo 34 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, los actos administrativos que dicten las Administraciones Públicas, bien de oficio o a instancia del interesado, se producirán por el órgano competente:",
           "opciones": [
