@@ -1,2 +1,25 @@
-venv/
+# Ficheros
 *.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pyzw
+*.pycache
+*.pyproj
+*.pycproj
+*.pyrepl
+*.pytype
+*.pyi
+*.pylintrc
+*.pyup
+*.pytest_cache
+*.pytest_cache/
+*.pytest_cache/*
+
+# Directorios	
+__pycache__/
+venv/
+.vscode/
+.idea/
+
