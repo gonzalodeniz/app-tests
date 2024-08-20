@@ -1,0 +1,25 @@
+{
+  "Tema 1":{
+      "titulo":"El acto administrativo: Concepto, clases y elementos. Eficacia y validez de los actos    administrativos. Motivación, notificación y publicación. Nulidad y anulabilidad de los actos administrativos. Conversión, conservación y convalidación.", 
+      "banco_de_preguntas": [
+        {
+          "pregunta": "De conformidad con lo establecido en el artículo 34 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, los actos administrativos que dicten las Administraciones Públicas, bien de oficio o a instancia del interesado, se producirán por el órgano competente:",
+          "opciones": [
+            "Ajustándose a los requisitos y al procedimiento establecido.",
+            "Ajustándose al procedimiento establecido solamente cuando sea a instancia de parte.",
+            "Ajustándose al procedimiento establecido solamente cuando sea de oficio."
+          ],
+          "respuesta_correcta": 0
+        },
+        {
+          "pregunta": "De conformidad con el artículo 35.1 Ley 39/2015 del Procedimiento Administrativo Común de las Administraciones Públicas, serán motivados, con sucinta referencia de hechos y fundamentos de derecho:",
+          "opciones": [
+            "Los acuerdos de aplicación de la tramitación de emergencia.",
+            "Los actos que resuelvan procedimientos de revisión de oficio de disposiciones o actos administrativos, recursos administrativos y procedimientos de arbitraje y los que declaren su inadmisión.",
+            "Los actos que admitan pruebas propuestas por los interesados."
+          ],
+          "respuesta_correcta": 1
+        }
+    ]
+  }
+}
