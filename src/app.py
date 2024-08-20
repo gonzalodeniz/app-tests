@@ -4,8 +4,10 @@ import json
 
 app = Flask(__name__)
 
-from preguntas.auxadm2024 import cuestionario
-
+# Carga el cuestionario desde un archivo JSON
+with open('src/preguntas/auxadm2024.json', 'r') as file:
+    cuestionario = json.load(file)
+    
 @app.route('/')
 def index():
     temas = list(cuestionario.keys())        
