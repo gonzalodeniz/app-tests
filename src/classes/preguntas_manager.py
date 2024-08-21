@@ -9,8 +9,16 @@ class PreguntasManager:
         self.tema_actual = None
         self.preguntas = []
         self.indice_pregunta_actual = 0
+
+    def obtener_temas(self):
+        """
+        Devuelve una lista con los nombres de los temas disponibles.
+        
+        :return: Una lista con los nombres de los temas.
+        """
+        return list(self.data.keys())
     
-    def seleccionar_tema(self, tema):
+    def seleccionar_tema(self, tema: str)->None:
         """
         Selecciona un tema específico y carga sus preguntas.
         
@@ -45,43 +53,3 @@ class PreguntasManager:
         """
         self.indice_pregunta_actual = 0
 
-# Ejemplo de uso
-if __name__ == "__main__":
-    # Ejemplo de datos JSON
-    datos = {
-        "Tema 1": {
-            "titulo": "El acto administrativo...",
-            "banco_de_preguntas": [
-                {
-                    "pregunta": "¿Cuál es el concepto de acto administrativo?",
-                    "opciones": [
-                        "Opción A",
-                        "Opción B",
-                        "Opción C"
-                    ],
-                    "respuesta_correcta": 0
-                },
-                {
-                    "pregunta": "¿Qué tipos de actos administrativos existen?",
-                    "opciones": [
-                        "Opción A",
-                        "Opción B",
-                        "Opción C"
-                    ],
-                    "respuesta_correcta": 1
-                }
-            ]
-        }
-    }
-
-    # Crear una instancia del gestor de preguntas
-    gestor = PreguntasManager(datos)
-    
-    # Seleccionar un tema
-    gestor.seleccionar_tema("Tema 1")
-    
-    # Obtener preguntas secuencialmente
-    pregunta = gestor.obtener_pregunta()
-    while pregunta is not None:
-        print(pregunta["pregunta"])
-        pregunta = gestor.obtener_pregunta()
