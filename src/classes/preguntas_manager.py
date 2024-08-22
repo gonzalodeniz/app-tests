@@ -47,6 +47,12 @@ class PreguntasManager:
         else:
             return None
     
+    def obtener_numero_total_preguntas(self):
+        return len(self.preguntas)
+    
+    def obtener_numero_actual_pregunta(self):
+        return self.indice_pregunta_actual
+
     def reiniciar_preguntas(self):
         """
         Reinicia el índice de preguntas para comenzar nuevamente desde la primera pregunta del tema seleccionado.
