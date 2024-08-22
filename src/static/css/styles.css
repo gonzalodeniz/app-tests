@@ -6,7 +6,7 @@ h1 {
     margin-top: 20px;
     margin-bottom: 30px;
     color: #343a40;
-    font-size: large;
+    font-size: medium;
 }
 
 input[type="radio"] {
@@ -38,6 +38,10 @@ input[type="radio"] {
     background-color: white;
     border-radius: 10px;
     padding: 20px;    
+}
+
+.contador_pregunta {
+    text-align: right;
 }
 
 
