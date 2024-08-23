@@ -1,5 +1,3 @@
-version: '3'
-
 services:
   app-tests:
     build:
@@ -9,5 +7,9 @@ services:
     container_name: app-tests
     ports:
       - "5000:5000"
-    volumes:
-      - ./src:/app:ro
+    # networks:
+    #   - apptests-network
+
+# networks:
+#   apptests-network:
+#     driver: bridge

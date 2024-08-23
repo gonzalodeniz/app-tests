@@ -1,8 +1,12 @@
 FROM python:3.11-alpine
+RUN apk add --no-cache iproute2
 
-# Set up environment variables for Python
+# Set up environment
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
+ENV FLASK_APP ./app.py
+ENV FLASK_ENV development  
+
 
 # Create and set the working directory
 WORKDIR /app
@@ -20,4 +24,4 @@ COPY . .
 EXPOSE 5000
 
 # Specify the command to run on container start
-CMD ["python", "app.py"]
+CMD ["sh","run.sh"]
