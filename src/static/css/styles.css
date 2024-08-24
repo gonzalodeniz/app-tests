@@ -38,11 +38,20 @@ input[type="radio"] {
     background-color: white;
     border-radius: 10px;
     padding: 20px;    
+    transition: border 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+.respuesta.selected {
+    border: solid white;
+    background-color: #007BFF;
+    color: white
 }
 
 .contador_pregunta {
     text-align: right;
 }
+
+
 
 
 

@@ -1,46 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cuestionario</title>
-        <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
-        <!-- Bootstrap CSS -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-        <!-- Bootstrap JS and dependencies -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
-    </head>
-    <body>
-        <div class="container">
-            <div class="contador_pregunta">
-                {{ num_preguntas_actual }} / {{ num_preguntas_total }}
-            </div>
-            <h1 class="text-center">{{ pregunta['pregunta'] }}</h1>
-            <form action="{{ url_for('verificar_respuesta') }}" method="post">
-                <div class="row">
-                    {% for i in range(3) %}
-                    <div class="col-12 mb-3">
-                        <div class="form-check">
-                            <input class="form-check-input respuesta" type="radio" name="opcion" id="opcion{{ i }}" value="{{ i }}">
-                            <label class="form-check-label respuesta" for="opcion{{ i }}">
-                                {{ pregunta['opciones'][i] }}
-                            </label>
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
-                <input type="hidden" name="tema" value="{{ tema }}">
-                <input type="hidden" name="pregunta" value="{{ pregunta['pregunta'] }}">
-                <input type="hidden" name="respuesta_correcta" value="{{ pregunta['respuesta_correcta'] }}">
-                <input type="hidden" name="respuesta_correcta_text" value="{{ pregunta['opciones'][pregunta['respuesta_correcta']] }}">
-                <div class="text-center">
-                    <input type="submit" class="btn btn-primary" value="Enviar Respuesta">
-                </div>
-            </form>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
+</head>
+<body>
+    <div class="container">
+        <div class="contador_pregunta">
+            {{ num_preguntas_actual }} / {{ num_preguntas_total }}
         </div>
-    </body>
+        <h1 class="text-center">{{ pregunta['pregunta'] }}</h1>
+        <form action="{{ url_for('verificar_respuesta') }}" method="post">
+            <div class="row">
+                {% for i in range(3) %}
+                <div class="col-12 mb-3">
+                    <div class="form-check">
+                        <button type="button" class="respuesta btn btn-secondary" data-value="{{ i }}" onclick="selectButton(this)">
+                            {{ pregunta['opciones'][i] }}
+                        </button>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <input type="hidden" name="opcion" id="selectedOption">
+            <input type="hidden" name="tema" value="{{ tema }}">
+            <input type="hidden" name="pregunta" value="{{ pregunta['pregunta'] }}">
+            <input type="hidden" name="respuesta_correcta" value="{{ pregunta['respuesta_correcta'] }}">
+            <input type="hidden" name="respuesta_correcta_text" value="{{ pregunta['opciones'][pregunta['respuesta_correcta']] }}">
+            <div class="text-center">
+                <input type="submit" class="btn btn-primary" value="Enviar Respuesta">
+            </div>
+        </form>
+    </div>
+    <script>
+        function selectButton(respuesta) {
+            // Remove the 'selected' class from all buttons
+            var buttons = document.querySelectorAll('.respuesta');
+            buttons.forEach(function(button) {
+                button.classList.remove('selected');
+            });
+
+            // Add the 'selected' class to the clicked button
+            respuesta.classList.add('selected');
+
+            // Set the value of the hidden input to the selected option
+            document.getElementById('selectedOption').value = respuesta.getAttribute('data-value');
+        }
+    </script>
+</body>
 </html>
