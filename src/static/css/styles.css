@@ -51,6 +51,14 @@ input[type="radio"] {
     text-align: right;
 }
 
+.btn.correct {
+    background-color: #28a745 !important;
+    color: white !important;
+}
+.btn.incorrect {
+    background-color: #dc3545 !important;
+    color: white !important;
+}
 
 
 

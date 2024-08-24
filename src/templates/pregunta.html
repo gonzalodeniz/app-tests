@@ -13,6 +13,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
+
 </head>
 <body>
     <div class="container">
@@ -20,7 +21,7 @@
             {{ num_preguntas_actual }} / {{ num_preguntas_total }}
         </div>
         <h1 class="text-center">{{ pregunta['pregunta'] }}</h1>
-        <form action="{{ url_for('verificar_respuesta') }}" method="post">
+        <form action="{{ url_for('hacer_pregunta', tema=tema) }}" method="get">
             <div class="row">
                 {% for i in range(3) %}
                 <div class="col-12 mb-3">
@@ -32,17 +33,16 @@
                 </div>
                 {% endfor %}
             </div>
-            <input type="hidden" name="opcion" id="selectedOption">
-            <input type="hidden" name="tema" value="{{ tema }}">
-            <input type="hidden" name="pregunta" value="{{ pregunta['pregunta'] }}">
-            <input type="hidden" name="respuesta_correcta" value="{{ pregunta['respuesta_correcta'] }}">
-            <input type="hidden" name="respuesta_correcta_text" value="{{ pregunta['opciones'][pregunta['respuesta_correcta']] }}">
+            <input type="hidden" name="respuesta_correcta" id="correctAnswer" value="{{ pregunta['respuesta_correcta'] }}">
             <div class="text-center">
-                <input type="submit" class="btn btn-primary" value="Enviar Respuesta">
+                <button type="button" class="btn btn-primary" onclick="verificarRespuesta()">Verificar</button>
+                <button type="submit" class="btn btn-success">Siguiente</button>
             </div>
         </form>
     </div>
     <script>
+        let selectedOption = null;
+
         function selectButton(respuesta) {
             // Remove the 'selected' class from all buttons
             var buttons = document.querySelectorAll('.respuesta');
@@ -53,8 +53,21 @@
             // Add the 'selected' class to the clicked button
             respuesta.classList.add('selected');
 
-            // Set the value of the hidden input to the selected option
-            document.getElementById('selectedOption').value = respuesta.getAttribute('data-value');
+            // Store the selected option
+            selectedOption = respuesta;
+        }
+
+        function verificarRespuesta() {
+            if (selectedOption !== null) {
+                const correctAnswer = document.getElementById('correctAnswer').value;
+                const selectedValue = selectedOption.getAttribute('data-value');
+
+                if (selectedValue === correctAnswer) {
+                    selectedOption.classList.add('correct');
+                } else {
+                    selectedOption.classList.add('incorrect');
+                }
+            } 
         }
     </script>
 </body>

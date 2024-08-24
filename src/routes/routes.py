@@ -10,9 +10,7 @@ def register_routes(app):
     # cuestionario = cargar_preguntas('preguntas/auxadm2024.json')
     cuestionario = cargar_preguntas('src/preguntas/auxadm2024.json')
 
-    
     pm = PreguntasManager(cuestionario)
-  
 
     @app.route('/')
     def index()->str:
@@ -43,16 +41,3 @@ def register_routes(app):
                                                 num_preguntas_total=num_preguntas_total, 
                                                 num_preguntas_actual=num_preguntas_actual)
 
-    @app.route('/respuesta', methods=['POST'])
-    def verificar_respuesta()->str:
-        tema = request.form['tema']
-        pregunta = request.form['pregunta']
-        respuesta_seleccionada = int(request.form['opcion'])
-        respuesta_correcta = int(request.form['respuesta_correcta'])
-
-        if respuesta_seleccionada == respuesta_correcta:
-            resultado = "¡Correcto!"
-        else:
-            resultado = f"Incorrecto"
-
-        return render_template('resultado.html', resultado=resultado, tema=tema)
