@@ -22,9 +22,9 @@ fi
 
 # Hace merge en la rama master
 git checkout master
-git pull
-git merge develop --ff-only
-git push
+git pull --rebase --autostash
+git merge develop --no-edit
+git push origin master
 
 # Crea el tag y lo publica
 git tag -a $1 -m "Publicacion de la version $1"

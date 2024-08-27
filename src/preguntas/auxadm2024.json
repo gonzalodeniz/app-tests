@@ -473,5 +473,480 @@
         "respuesta_correcta": 1
       }
     ]
+  },
+  "Tema 6": {
+    "titulo": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales: Disposiciones generales. Principios de protección de datos. Derechos de las personas.",
+    "banco_de_preguntas": [
+      {
+        "pregunta": "De conformidad con lo establecido en el artículo 1 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, el objeto de la ley es:",
+        "opciones": [
+          "Adaptar el ordenamiento jurídico español al Reglamento (UE) 2019/679.",
+          "Garantizar los derechos personales de la ciudadanía conforme al mandato establecido en el artículo 19.4 de la Constitución.",
+          "Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "A tenor del artículo 2.2 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, esta ley orgánica no será de aplicación:",
+        "opciones": [
+          "A los tratamientos de datos de personas fallecidas, sin perjuicio de lo establecido en el artículo 3.",
+          "A cualquier tratamiento total o parcialmente automatizado de datos personales.",
+          "Al tratamiento no automatizado de datos personales contenidos o destinados a ser incluidos en un fichero."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "De conformidad con lo establecido en el artículo 3.1 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, las personas vinculadas al fallecido por razones familiares o de hecho así como sus herederos podrán dirigirse al responsable o encargado del tratamiento al objeto de solicitar el acceso a los datos personales de aquella y, en su caso, su _____________.",
+        "opciones": [
+          "Limitación del tratamiento.",
+          "Rectificación o supresión.",
+          "Portabilidad."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "Según el artículo 4.2 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, a los efectos previstos en el artículo 5.1.d) del Reglamento (UE) 2016/679, no será imputable al responsable del tratamiento, siempre que este haya adoptado todas las medidas razonables para que se supriman o rectifiquen sin dilación, la inexactitud de los datos personales, con respecto a los fines para los que se tratan, cuando los datos inexactos:",
+        "opciones": [
+          "Hubiesen sido obtenidos por el responsable indirectamente del afectado.",
+          "Fuesen obtenidos de un registro privado por el responsable.",
+          "Hubiesen sido obtenidos por el responsable directamente del afectado."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "En virtud del artículo 7.1 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, el tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea mayor de:",
+        "opciones": [
+          "Catorce años.",
+          "Doce años.",
+          "Dieciséis años."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "De conformidad con lo establecido en el artículo 10.1 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, el tratamiento de datos personales relativos a condenas e infracciones penales, así como a procedimientos y medidas cautelares y de seguridad conexas, para fines distintos de los de prevención, investigación, detección o enjuiciamiento de infracciones penales o de ejecución de sanciones penales:",
+        "opciones": [
+          "Solo podrá llevarse a cabo cuando no se encuentre amparado en esta ley orgánica o en otras normas de rango legal.",
+          "Solo podrá llevarse a cabo cuando se encuentre amparado en una norma de Derecho de la Unión, en esta ley orgánica o en otras normas de rango legal.",
+          "En su caso, no podría llevarse a cabo cuando se encuentre amparado en una norma de Derecho de la Unión o en esta ley orgánica."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "Según el artículo 11 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, cuando los datos personales sean obtenidos del afectado el responsable del tratamiento podrá dar cumplimiento al deber de información establecido en el artículo 13 del Reglamento (UE) 2016/679 facilitando al afectado la información básica que deberá contener, al menos:",
+        "opciones": [
+          "La identidad del encargado del tratamiento y de su representante, en su caso.",
+          "La finalidad del tratamiento.",
+          "La posibilidad de ejercer las medidas establecidos en los artículos 16 a 23 del Reglamento (UE) 2019/679."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "Según el artículo 14 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, al ejercer el derecho de rectificación reconocido en el artículo 16 del Reglamento (UE) 2016/679, el afectado deberá:",
+        "opciones": [
+          "Indicar en su solicitud a qué datos se refiere y la corrección que haya de realizarse.",
+          "En todo caso, deberá acompañar la documentación requerida en el reglamento.",
+          "Aportar una declaración responsable."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "A tenor del artículo 15.2 de Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, cuando la supresión derive del ejercicio del derecho de oposición con arreglo al artículo 21.2 del Reglamento (UE) 2016/679, el responsable podrá conservar los datos identificativos del afectado necesarios con el fin de impedir tratamientos futuros para fines _______________.",
+        "opciones": [
+          "Publicitarios.",
+          "De mercadotecnia indirecta.",
+          "De Mercadotecnia directa."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "De conformidad con lo establecido en el artículo 18 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, el derecho de oposición, así como los derechos relacionados con las decisiones individuales automatizadas, incluida la realización de perfiles, se ejercerán de acuerdo con lo establecido, respectivamente, en los",
+        "opciones": [
+          "Artículos 17 y 18 del Reglamento (UE) 2016/679.",
+          "Artículos 19 y 20 del Reglamento (UE) 2016/679.",
+          "Artículos 21 y 22 del Reglamento (UE) 2016/679."
+        ],
+        "respuesta_correcta": 2
+      }
+    ]
+  },
+  "Tema 7": {
+    "titulo": "La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales: Objeto y ámbito de aplicación. Derechos y obligaciones de los trabajadores.",
+    "banco_de_preguntas": [
+      {
+        "pregunta": "A tenor del artículo 1 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, la normativa sobre prevención de riesgos laborales está constituida por la presente Ley, sus disposiciones de desarrollo o complementarias y cuantas otras normas, ______________, contengan prescripciones relativas a la adopción de medidas preventivas en el ámbito laboral o susceptibles de producirlas en dicho ámbito.",
+        "opciones": [
+          "Administrativas.",
+          "Reglamentarias.",
+          "Legales o convencionales."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "A tenor del artículo 3.1 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, cuando en la presente Ley se haga referencia a trabajadores y empresarios, se entenderán también comprendidos en estos términos:",
+        "opciones": [
+          "Únicamente el personal con relación de carácter administrativo o estatutario y la Administración pública para la que presta servicios.",
+          "Los socios de las entidades públicas empresariales.",
+          "El personal con relación de carácter administrativo o estatutario y la Administración pública para la que presta servicios."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "De conformidad con lo establecido en el artículo 15 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, ¿cuál de los siguientes principios ha de regir la acción preventiva de cualquier empresa o administración pública?",
+        "opciones": [
+          "Combatir los riesgos en su origen.",
+          "No tener en cuenta la evolución de la técnica.",
+          "Sustituir lo peligroso únicamente en aquellos casos que resulte estrictamente necesario."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "En virtud de lo establecido en el artículo 16.1 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, la prevención de riesgos laborales deberá integrarse en el sistema general de gestión de la empresa, tanto en el conjunto de sus actividades como en todos los niveles jerárquicos de ésta, a través de:",
+        "opciones": [
+          "La contratación, implantación y aplicación de una evaluación de riesgos psicosociales.",
+          "La contratación de un plan de prevención de riesgos laborales.",
+          "La implantación y aplicación de un plan de prevención de riesgos laborales."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "Según lo establecido el artículo 17 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, cuando la utilización de un equipo de trabajo pueda presentar un riesgo específico para la seguridad y la salud de los trabajadores, el empresario adoptará las medidas necesarias con el fin de que:",
+        "opciones": [
+          "La utilización del equipo de trabajo no quede reservada a los encargados de dicha utilización.",
+          "Los trabajos de reparación, transformación, mantenimiento o conservación sean realizados por los trabajadores específicamente capacitados para ello.",
+          "Únicamente los trabajos de reparación, transformación, mantenimiento o conservación no sean realizados por los encargados de dicha utilización."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "A tenor del artículo 21 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, ¿Qué actuación se debe seguir por parte del empresario en caso de riesgo grave e inminente?",
+        "opciones": [
+          "Adoptar las medidas y dar las instrucciones necesarias para que no resulte necesario que los trabajadores interrumpan su actividad o abandonen el lugar de trabajo.",
+          "Informar lo antes posible a todos los trabajadores afectados acerca de la existencia de dicho riesgo y de las medidas adoptadas o que, en su caso, deban adoptarse en materia de protección.",
+          "Informar a la autoridad competente sobre las medidas que hubieran sido acordadas."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "A tenor del artículo 22.2 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, las medidas de vigilancia y control de la salud de los trabajadores se llevarán a cabo respetando siempre el derecho a la ________________ de la persona del trabajador y la confidencialidad de toda la información relacionada con su estado de salud.",
+        "opciones": [
+          "Seguridad.",
+          "La Seguridad y la salud.",
+          "Intimidad y a la dignidad."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "El artículo 26 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales recoge medidas de protección adicionales para:",
+        "opciones": [
+          "Las trabajadoras en situación de embarazo o parto reciente a agentes, procedimientos o condiciones de trabajo que puedan influir negativamente en la salud de las trabajadoras o del feto.",
+          "El personal con edad superior a los 62 años, para aquellos trabajos que puedan generar un riesgo en su salud.",
+          "El personal que trabaja con animales peligrosos."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "De conformidad con lo establecido en el artículo 27.2 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales:",
+        "opciones": [
+          "El Gobierno establecerá las limitaciones a la contratación de jóvenes menores de dieciséis años en trabajos que presenten riesgos específicos.",
+          "El Gobierno establecerá las limitaciones a la contratación de jóvenes menores de dieciocho años en trabajos que presenten riesgos específicos.",
+          "El Gobierno establecerá las limitaciones a la contratación de jóvenes mayores de dieciocho años en trabajos que presenten riesgos específicos."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "Según el art. 29 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, los trabajadores, con arreglo a su formación y siguiendo las instrucciones del empresario, tendrán el deber de:",
+        "opciones": [
+          "Utilizar correctamente los medios y equipos de protección facilitados por el empresario, de acuerdo con las instrucciones recibidas por éste.",
+          "Usar de acuerdo con su naturaleza y los riesgos imprevisibles, las máquinas, aparatos, herramientas y en general cualesquiera otros medios con los que desarrollen su actividad.",
+          "Informar de inmediato a la autoridad laboral, acerca de cualquier situación que, a su juicio, entrañe un riesgo para la seguridad y salud de los trabajadores."
+        ],
+        "respuesta_correcta": 0
+      }
+    ]
+  },
+  "Tema 8": {
+    "titulo": "Los servicios de atención administrativa, información general y particular al ciudadano. Iniciativa, reclamaciones, quejas y reclamaciones. Ley de transparencia.",
+    "banco_de_preguntas": [
+      {
+        "pregunta": "De conformidad con lo establecido en el artículo 1 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, esta Ley tiene por objeto:",
+        "opciones": [
+          "Poner en funcionamiento los trámites para el acceso a la información de la actividad privada.",
+          "Establecer las obligaciones de buen gobierno que deben cumplir los responsables públicos así como las consecuencias derivadas de su incumplimiento.",
+          "En ningún caso, establecer las obligaciones de buen gobierno que deben cumplir los responsables públicos así como las consecuencias derivadas de su incumplimiento."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "A tenor del artículo 2.1 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, la ley será de aplicación a:",
+        "opciones": [
+          "Las fundaciones del sector privado previstas en la legislación en materia de fundaciones.",
+          "Las corporaciones de Derecho Público, en lo relativo a sus actividades sujetas a Derecho Administrativo.",
+          "En ningún caso, las entidades gestoras y los servicios comunes de la Seguridad Social así como las mutuas de accidentes de trabajo y enfermedades profesionales colaboradoras de la Seguridad Social."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "De conformidad con lo establecido en el artículo 14.1 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, el derecho de acceso podrá ser limitado cuando acceder a la información suponga un perjuicio para:",
+        "opciones": [
+          "La prevención, investigación y sanción de los ilícitos penales, administrativos o disciplinarios.",
+          "La seguridad personal.",
+          "En ningún caso, la política económica y monetaria."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "Con relación a la protección de datos personales regulados en el artículo 15.1 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, si la información solicitada contuviera datos personales que revelen la ideología, afiliación sindical, religión o creencias, el acceso únicamente se podrá autorizar en caso de que se contase con _______________________, a menos que dicho afectado hubiese hecho manifiestamente públicos los datos con anterioridad a que se solicitase el acceso.",
+        "opciones": [
+          "El consentimiento verbal del afectado.",
+          "Autorización verbal del afectado.",
+          "El consentimiento expreso y por escrito del afectado."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "Según el artículo 16 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, en los casos en que la aplicación de alguno de los límites previstos en el artículo 14 no afecte a la totalidad de la información, se concederá el ___________ previa omisión de la información afectada por el límite salvo que de ello resulte una información distorsionada o que carezca de sentido. En este caso, deberá indicarse al solicitante que parte de la información ha sido omitida.",
+        "opciones": [
+          "Acceso temporal.",
+          "Acceso parcial.",
+          "En ningún caso, acceso parcial."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "En virtud del artículo 18 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, se inadmitirán a trámite, mediante resolución motivada, las solicitudes de acceso a la información:",
+        "opciones": [
+          "Que sean manifiestamente repetitivas o tengan un carácter abusivo no justificado con la finalidad de transparencia de esta Ley.",
+          "Cuando la información solicitada no contuviera datos especialmente protegidos y previa disociación de los datos de carácter personal, de modo que impida la identificación de las personas afectadas.",
+          "Dirigidas a un órgano en cuyo poder obre la información, que contenga datos meramente identificativos relacionadas con la organización y funcionamiento del órgano."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "A tenor del artículo 19.3 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, si la información solicitada pudiera afectar a derechos o intereses de terceros, debidamente identificados, se les concederá un plazo de ________ para que puedan realizar las alegaciones que estimen oportunas.",
+        "opciones": [
+          "Diez días.",
+          "Quince días.",
+          "Cinco días."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "Según el artículo 22.1 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, el acceso a la información se realizará preferentemente por vía electrónica, salvo cuando no sea posible o el solicitante haya señalado expresamente otro medio. Cuando no pueda darse el acceso en el momento de la notificación de la resolución deberá otorgarse:",
+        "opciones": [
+          "En cualquier caso, en un plazo superior a diez días.",
+          "En cualquier caso, en un plazo no superior a diez días.",
+          "En cualquier caso, en un plazo no superior a cinco días."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "A tenor del artículo 22.2 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, si ha existido oposición de tercero, el acceso sólo tendrá lugar cuando, habiéndose concedido dicho acceso, haya transcurrido el plazo para interponer ________________  sin que se haya formalizado o haya sido resuelto confirmando el derecho a recibir la información.",
+        "opciones": [
+          "Recurso de Reposición.",
+          "Recurso de Alzada.",
+          "Recurso contencioso administrativo."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "A tenor del artículo 22.4 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, el acceso a la información será gratuito. No obstante, la expedición de copias o la trasposición de la información a un formato diferente al original podrá dar lugar a la exigencia de exacciones en los términos previstos:",
+        "opciones": [
+          "En ningún caso, en la normativa autonómica o local que resulte aplicable.",
+          "En la Ley 8/1989, de 13 de abril, de Tasas y Precios Públicos, o, en su caso, conforme a la normativa autonómica o local que resulte aplicable.",
+          "En la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno."
+        ],
+        "respuesta_correcta": 1
+      }
+    ]
+  },
+  "Tema 9": {
+    "titulo": "El personal al servicio de las Administraciones Públicas. El Texto Refundido del Estatuto Básico del Empleado Público: Objeto y Ámbito de Aplicación. El Personal al Servicio de Las Administraciones Públicas. Derechos y Deberes. Código de Conducta de los Empleados Públicos.",
+    "banco_de_preguntas": [
+      {
+        "pregunta": "De conformidad con lo establecido en el artículo 2 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, el Estatuto se aplica al personal funcionario y en lo que proceda al personal laboral al servicio de las siguientes Administraciones Públicas:",
+        "opciones": [
+          "Las Universidades Privadas.",
+          "Los organismos públicos, agencias y demás entidades de derecho público con personalidad jurídica propia, vinculadas o dependientes de cualquiera de las Administraciones Públicas.",
+          "En ningún caso, a los organismos públicos."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "Según el artículo 8.2 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, los empleados públicos se clasifican en:",
+        "opciones": [
+          "En ningún caso, personal eventual.",
+          "Funcionarios de carrera, funcionarios estatutarios y personal temporal.",
+          "Funcionarios de carrera, funcionarios interinos, personal laboral y personal eventual."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "Según el artículo 9.1 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, son funcionarios de carrera:",
+        "opciones": [
+          "Quienes están vinculados a una Administración Pública por una relación jurídica regulada por el Derecho Administrativo para el desempeño de servicios personales de carácter temporal.",
+          "Quienes, en virtud de nombramiento legal, están vinculados a una Administración Pública por una relación estatuaria regulada por el Derecho Administrativo para el desempeño de servicios profesionales retribuidos de carácter permanente.",
+          "Quienes, en virtud de designación legal, están vinculados a una Administración Pública por una relación regulada por el Derecho Laboral para el desempeño de servicios profesionales retribuidos de carácter permanente."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "Según el artículo 10.1 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, son funcionarios interinos los que, por razones expresamente justificadas de necesidad y urgencia, son nombrados como tales con carácter temporal para el desempeño de funciones propias de funcionarios de carrera, cuando se dé alguna de las siguientes circunstancias:",
+        "opciones": [
+          "La ejecución de programas de carácter temporal, que no podrán tener una duración superior a tres años, ampliable hasta doce meses más por las leyes de Función Pública que se dicten en desarrollo de este Estatuto.",
+          "En ningún caso, por el exceso o acumulación de tareas por plazo máximo de nueve meses, dentro de un periodo de dieciocho meses.",
+          "La ejecución de programas de carácter temporal, que no podrán tener una duración superior a cinco años, ampliable hasta doce meses más por las leyes de Función Pública."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "A tenor del artículo 14 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público los empleados públicos tienen derecho:",
+        "opciones": [
+          "A la inamovilidad en la condición de funcionario de carrera.",
+          "A la formación continua y a la actualización permanente de sus conocimientos y capacidades profesionales, fuera del horario laboral.",
+          "A la libertad de expresión, sin restricción alguna."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "En virtud de lo establecido en el artículo 15 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, los empleados públicos tienen los siguientes derechos individuales que se ejercen de forma colectiva:",
+        "opciones": [
+          "A la negociación colectiva y a la participación en la determinación de las condiciones de trabajo.",
+          "Al ejercicio de la huelga, sin la garantía del mantenimiento de los servicios esenciales de la comunidad.",
+          "En ningún caso, a la participación en la determinación de las condiciones de trabajo."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "En virtud del artículo 23 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, las retribuciones básicas, que se fijan en la Ley de Presupuestos Generales del Estado, estarán integradas única y exclusivamente por:",
+        "opciones": [
+          "La progresión alcanzada por el funcionario dentro del sistema de carrera administrativa.",
+          "La especial dificultad técnica, responsabilidad, dedicación, incompatibilidad exigible para el desempeño de determinados puestos de trabajo o las condiciones en que se desarrolla el trabajo.",
+          "Todas las respuestas son incorrectas."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "De conformidad con el artículo 48.a) del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, los funcionarios públicos tendrán los siguientes permisos:",
+        "opciones": [
+          "Por traslado de domicilio con cambio de residencia, un día.",
+          "Por lactancia de un hijo menor de doce meses tendrán derecho a dos horas de ausencia del trabajo que podrá dividir en dos fracciones.",
+          "Por accidente o enfermedad graves, hospitalización o intervención quirúrgica sin hospitalización que precise de reposo domiciliario del cónyuge, pareja de hecho o parientes hasta el primer grado por consanguinidad o afinidad, así como de cualquier otra persona distinta de las anteriores que conviva con el funcionario o funcionaria en el mismo domicilio y que requiera el cuidado efectivo de aquella, cinco días hábiles."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "Según el artículo 49.g) del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, se concederá un permiso parental para el cuidado de hijo, hija o menor acogido por tiempo superior a un año, hasta el momento en que el menor cumpla ocho años:",
+        "opciones": [
+          "Tendrá una duración superior a ocho semanas y podrá disfrutarse a tiempo completo, cuando las necesidades del servicio lo permitan y conforme a los términos que reglamentariamente se establezcan.",
+          "Tendrá una duración no superior a ocho semanas, continuas o discontinuas, podrá disfrutarse a tiempo completo, o en régimen de jornada a tiempo parcial, cuando las necesidades del servicio lo permitan y conforme a los términos que reglamentariamente se establezcan.",
+          "Tendrá una duración no superior a doce semanas, continuas o discontinuas, podrá disfrutarse a tiempo completo, o en régimen de jornada a tiempo parcial, cuando las necesidades del servicio lo permitan y conforme a los términos que reglamentariamente se establezcan."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "A tenor del artículo 52 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, los empleados públicos deberán ______________________________ y velar por los intereses generales con sujeción y observancia de la Constitución y del resto del ordenamiento jurídico.",
+        "opciones": [
+          "Desempeñar con diligencia las tareas que tengan asignadas.",
+          "Cumplir con el horario laboral.",
+          "En ningún caso, desempeñar con diligencia las tareas que tengan asignadas."
+        ],
+        "respuesta_correcta": 0
+      }
+    ]
+  },
+  "Tema 10": {
+    "titulo": "El Presupuesto General de las Entidades Locales: concepto y contenido. Especial referencia a las Bases de ejecución del Presupuesto. La elaboración y aprobación del Presupuesto General. La prórroga presupuestaria.",
+    "banco_de_preguntas": [
+      {
+        "pregunta": "Según el artículo 162 del Real Decreto Legislativo 2/2004, de 5 de marzo, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales, los presupuestos generales de las entidades locales constituyen la expresión cifrada, conjunta y sistemática de las obligaciones que, como máximo, pueden reconocer la entidad, y sus organismos autónomos, y de los derechos que prevean liquidar durante el correspondiente ejercicio, así como de las _______________________ cuyo capital social pertenezca íntegramente a la entidad local correspondiente.",
+        "opciones": [
+          "Previsiones de obligaciones y compromisos de gastos de los organismos autónomos.",
+          "Previsiones de ingresos y gastos de las sociedades mercantiles.",
+          "Estimaciones de compras y subvenciones de las sociedades mercantiles."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "De conformidad con lo establecido en el artículo 163 del Real Decreto Legislativo 2/2004, de 5 de marzo, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales, el ejercicio presupuestario coincidirá con el año natural y a él se imputarán:",
+        "opciones": [
+          "Los derechos liquidados en el ejercicio, cualquiera que sea el período de que deriven.",
+          "Los derechos reconocidos durante el ejercicio fiscal.",
+          "Las obligaciones liquidadas durante el ejercicio."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "De conformidad con lo establecido en el artículo 165.1 del Real Decreto Legislativo 2/2004, de 5 de marzo, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales, el presupuesto general atenderá al cumplimiento del principio de estabilidad en los términos previstos en la Ley 18/2001, General de Estabilidad Presupuestaria, y contendrá para cada uno de los presupuestos que en él se integren:",
+        "opciones": [
+          "Los estados de gastos, en los que se incluirán, con la debida especificación, los créditos necesarios para atender al cumplimiento de las obligaciones.",
+          "Los estados de gastos, en los que figurarán las estimaciones de los distintos recursos económicos a liquidar durante el ejercicio.",
+          "Los estados de ingresos, en los que se incluirán, con la debida especificación, los créditos necesarios para atender al cumplimiento de las obligaciones."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "Según el artículo 165.1 del Real Decreto Legislativo 2/2004, de 5 de marzo, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales, el Presupuesto General incluirá las Bases de Ejecución del mismo que contendrán, para cada ejercicio:",
+        "opciones": [
+          "La adaptación de las disposiciones generales en materia presupuestaria a la organización y circunstancias de la propia entidad.",
+          "Las necesarias para su amortización, estableciendo las medidas necesarias para la mejor realización de la liquidación de recursos y acreditación de deuda.",
+          "En ningún caso, la adaptación de las disposiciones generales en materia presupuestaria a la organización y circunstancias de la propia entidad."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "De conformidad con lo establecido en el artículo 166.1 del Real Decreto Legislativo 2/2004, de 5 de marzo, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales, al presupuesto general se unirán como anexos:",
+        "opciones": [
+          "Los planes de inversión y financiación que, para un plazo de dos años, podrán formular los municipios y demás entidades locales de ámbito supramunicipal.",
+          "Los planes y programas de inversión y financiación que, para un plazo de cinco años, podrán formular los municipios y demás entidades locales.",
+          "Los planes y programas de inversión y financiación que, para un plazo de cuatro años, podrán formular los municipios y demás entidades locales de ámbito supramunicipal."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "De conformidad con el artículo 168 del Real Decreto Legislativo 2/2004, de 5 de marzo, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales, el presupuesto de la Entidad Local será formado por:",
+        "opciones": [
+          "El Pleno.",
+          "Su Presidente.",
+          "El Interventor."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "A tenor del artículo 168.1 del Real Decreto Legislativo 2/2004, de 5 de marzo, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales, al presupuesto de la entidad local habrá de unirse la siguiente documentación:",
+        "opciones": [
+          "Únicamente memoria justificativa de su contenido por capítulos.",
+          "Liquidación del presupuesto y estimación del corriente, referido, al menos, a tres meses siguientes al del ejercicio corriente.",
+          "Memoria explicativa de su contenido y de las principales modificaciones que presente en relación con el vigente."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "Según el artículo 169.1 del Real Decreto Legislativo 2/2004, de 5 de marzo, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales, aprobado inicialmente el presupuesto general, se expondrá al público, previo anuncio en el boletín oficial de la provincia o, en su caso, de la comunidad autónoma uniprovincial, por __________, durante los cuales los interesados podrán examinarlos y presentar reclamaciones ante el Pleno.",
+        "opciones": [
+          "15 días naturales.",
+          "30 días.",
+          "15 días."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "A tenor del artículo 169.2 del Real Decreto Legislativo 2/2004, de 5 de marzo, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales, la aprobación definitiva del presupuesto general por el Pleno de la corporación habrá de realizarse:",
+        "opciones": [
+          "Antes del día 31 de diciembre del año anterior al del ejercicio en que deba aplicarse.",
+          "Antes de concluir el ejercicio económico en el que haya de ejecutarse.",
+          "En el mes de enero del ejercicio económico a que se refiera."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "Según el artículo 169.6 del Real Decreto Legislativo 2/2004, de 5 de marzo, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales, si al iniciarse el ejercicio económico no hubiese entrado en vigor el presupuesto correspondiente:",
+        "opciones": [
+          "En ningún caso, se considerará prorrogado el del anterior.",
+          "No se considerará automáticamente prorrogado el del anterior.",
+          "Se considerará automáticamente prorrogado el del anterior, con sus créditos iniciales."
+        ],
+        "respuesta_correcta": 2
+      }
+    ]
   }
 }
