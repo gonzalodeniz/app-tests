@@ -283,5 +283,195 @@
         "respuesta_correcta": 0
       }
     ]
+  },
+  "Tema 4": {
+    "titulo": "Los contratos del Sector Público: objeto y ámbito de aplicación. Tipos de contratos del sector público. Órgano de Contratación. Objeto, presupuesto base de licitación, valor estimado, precio del contrato y su revisión. Garantías.",
+    "banco_de_preguntas": [
+      {
+        "pregunta": "Según el artículo 1.1 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, la presente Ley tiene por objeto regular la contratación del sector público, a fin de garantizar que la misma se ajusta a los principios de:",
+        "opciones": [
+          "Libertad de acceso a las licitaciones, publicidad y transparencia de los procedimientos, y no discriminación e igualdad de trato entre los licitadores.",
+          "Libertad de acceso a las contrataciones, publicidad y transparencia de los procedimientos.",
+          "Libertad de acceso a las licitaciones, publicidad y transparencia de los contratos e igualdad de trato entre los licitadores."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "En virtud del artículo 2.1 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, son contratos del sector público y, en consecuencia, están sometidos a la presente Ley en la forma y términos previstos en la misma, los contratos onerosos, cualquiera que sea su naturaleza jurídica, que celebren las entidades que forman parte del sector público, entre ellas se encuentran:",
+        "opciones": [
+          "Las Entidades Gestoras y los Servicios Comunes de la Seguridad Social.",
+          "Las Universidades Privadas.",
+          "Los fondos con personalidad jurídica."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "A tenor del artículo 16 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, son contratos de suministro los que tienen por objeto:",
+        "opciones": [
+          "La adquisición y el arrendamiento económico de productos o bienes muebles.",
+          "La adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles.",
+          "La compra, el arrendamiento financiero, o el arrendamiento, con opción de compra, de productos o bienes muebles."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "A tenor del artículo 61.1 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, la representación de las entidades del sector público en materia contractual corresponde a los ______________________ que, en virtud de norma legal o reglamentaria o disposición estatutaria, tengan atribuida la facultad de celebrar contratos en su nombre.",
+        "opciones": [
+          "Servicios encargados de gestionar los expedientes.",
+          "Órganos de contratación, unipersonales o colegiados.",
+          "Centros gestores."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "De conformidad con el artículo 62.1 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, con independencia de la unidad encargada del seguimiento y ejecución ordinaria del contrato que figure en los pliegos, los órganos de contratación deberán designar _____________ al que corresponderá supervisar su ejecución y adoptar las decisiones y dictar las instrucciones necesarias con el fin de asegurar la correcta realización de la prestación pactada, dentro del ámbito de facultades que aquellos le atribuyan.",
+        "opciones": [
+          "Un responsable del contrato.",
+          "Un encargado de la gestión del contrato.",
+          "Una persona ante la que responderá el contratista."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "Según el artículo 63.1 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, toda la información contenida en los perfiles de contratante se publicará en _______________________________, sin perjuicio de que se permita el acceso a expedientes anteriores ante solicitudes de información.",
+        "opciones": [
+          "Formatos utilizables y permanecerá accesible al público durante un periodo de tiempo no inferior a 5 años.",
+          "Formatos abiertos y reutilizables, y permanecerá accesible al público durante un periodo de tiempo no inferior a 5 años.",
+          "Formatos abiertos y reutilizables, y permanecerá accesible al público durante un periodo de tiempo no inferior a 3 años."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "En virtud del artículo 99.2 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público:",
+        "opciones": [
+          "No podrá fraccionarse un contrato con la finalidad de disminuir la cuantía del mismo y eludir así los requisitos de publicidad o los relativos al procedimiento de adjudicación que correspondan.",
+          "No podrá fraccionarse un contrato y eludir así los requisitos relativos al procedimiento de ejecución que correspondan.",
+          "Podrá fraccionarse un contrato con la finalidad de establecer la cuantía del mismo y garantizar los requisitos de publicidad así como los relativos al procedimiento de adjudicación que correspondan."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "De conformidad con el artículo 100.1 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, a los efectos de esta Ley, por presupuesto base de licitación se entenderá el límite máximo de gasto que en virtud del contrato puede comprometer el órgano de contratación, ____________________.",
+        "opciones": [
+          "Incluido el Impuesto sobre el Valor Añadido, salvo disposición en contrario.",
+          "Excluido el Impuesto sobre el Valor Añadido, salvo disposición en contrario.",
+          "Incluido el Impuesto sobre el patrimonio."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "En virtud del artículo 103.5 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, salvo en los contratos de suministro de energía, cuando proceda, la revisión periódica y predeterminada de precios en los contratos del sector público tendrá lugar en los términos establecidos en este capítulo, cuando:",
+        "opciones": [
+          "El contrato se hubiese ejecutado, al menos, en el 20 por ciento de su importe y hubiese transcurrido un año desde su formalización.",
+          "El contrato se hubiese ejecutado, al menos, en el 25 por ciento de su importe y hubiese transcurrido un año desde su formalización.",
+          "El contrato se hubiese ejecutado, al menos, en el 20 por ciento de su importe y hubiese transcurrido dos años desde su formalización."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "Según el artículo 106.2 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, en los casos en que el órgano de contratación haya acordado la exigencia de garantía provisional, en los pliegos de cláusulas administrativas particulares se determinará el importe de la misma, que no podrá ser:",
+        "opciones": [
+          "Superior a un 3 por 100 del presupuesto base de licitación del contrato, incluido el Impuesto sobre el Valor Añadido y el régimen de su devolución.",
+          "Superior a un 3 por 100 del presupuesto base de licitación del contrato, excluido el Impuesto sobre el Valor Añadido y el régimen de su devolución.",
+          "Superior a un 5 por 100 del presupuesto del contrato, excluido el Impuesto sobre el Valor Añadido y el régimen de su devolución."
+        ],
+        "respuesta_correcta": 1
+      }
+    ]
+  },
+  "Tema 5": {
+    "titulo": "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: Principios de la potestad sancionadora de las Administraciones Públicas. De la responsabilidad patrimonial de las Administraciones Públicas.",
+    "banco_de_preguntas": [
+      {
+        "pregunta": "Según el artículo 25.2 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, el ejercicio de la potestad sancionadora corresponde a los órganos administrativos que la tengan expresamente atribuida, por:",
+        "opciones": [
+          "Disposición de rango legal o reglamentario.",
+          "Acto administrativo del órgano instructor.",
+          "En ningún caso, por disposición de rango reglamentario."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "En virtud del artículo 26.2 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, las disposiciones sancionadoras producirán ___________________________________, tanto en lo referido a la tipificación de la infracción como a la sanción y a sus plazos de prescripción, incluso respecto de las sanciones pendientes de cumplimiento al entrar en vigor la nueva disposición.",
+        "opciones": [
+          "Efecto irretroactivo en cuanto favorezcan al presunto infractor o al infractor.",
+          "Efecto retroactivo en cuanto favorezcan al presunto infractor o al infractor.",
+          "Efecto retroactivo en cuanto no favorezcan al presunto infractor o al infractor."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "A tenor del artículo 27.2 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, únicamente por la comisión de infracciones administrativas podrán imponerse:",
+        "opciones": [
+          "Infracciones que, en todo caso, estarán delimitadas por la Ley.",
+          "Sanciones que estarán delimitadas por Ley o Reglamento.",
+          "Sanciones que, en todo caso, estarán delimitadas por la Ley."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "De conformidad con el artículo 28.1 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, sólo podrán ser sancionadas por hechos constitutivos de infracción administrativa las personas físicas y jurídicas, así como, cuando una Ley les reconozca capacidad de obrar, los grupos de afectados, las uniones y entidades sin personalidad jurídica y los patrimonios independientes o autónomos, que resulten responsables de los mismos:",
+        "opciones": [
+          "A título de dolo o culpa.",
+          "A título de negligencia grave.",
+          "Por imprudencia grave o muy grave."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "En virtud del artículo 29.1 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, las sanciones administrativas, sean o no de naturaleza pecuniaria:",
+        "opciones": [
+          "Podrán implicar privación de libertad.",
+          "En ningún caso podrán implicar, directa o subsidiariamente, privación de libertad.",
+          "En todo caso podrán implicar, directa o subsidiariamente, privación de libertad."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "Según el artículo 29.3 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, la graduación de la sanción considerará especialmente los siguientes criterios:",
+        "opciones": [
+          "El grado de culpabilidad o la existencia de intencionalidad.",
+          "La comisión en el término de dos años de más de una infracción de la misma naturaleza cuando así haya sido declarado por resolución provisional en vía administrativa.",
+          "En ningún caso, la naturaleza de los perjuicios causados."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "En virtud del artículo 30.1 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, las infracciones y sanciones prescribirán según lo dispuesto en las leyes que las establezcan. Si éstas no fijan plazos de prescripción:",
+        "opciones": [
+          "Las sanciones muy graves prescribirán a los tres años, las graves a los dos años y las leves a los seis meses.",
+          "Las sanciones impuestas por faltas muy graves prescribirán a los tres años, las impuestas por faltas graves a los dos años y las impuestas por faltas leves al año.",
+          "Las infracciones muy graves prescribirán a los tres años, las graves a los dos años y las leves al año."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "Según el artículo 32.1 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, los particulares tendrán derecho a ser indemnizados por las Administraciones Públicas correspondientes, de toda lesión que sufran en cualquiera de sus bienes y derechos, siempre que la lesión sea consecuencia del funcionamiento normal o anormal de los servicios públicos salvo en:",
+        "opciones": [
+          "Los casos de fuerza mayor o de daños que el particular tenga el deber jurídico de soportar de acuerdo con la Ley.",
+          "Los casos de fuerza mayor o de daños que el particular tenga la obligación de no soportar de acuerdo con la Ley.",
+          "Los casos de daños que el particular tenga el deber jurídico de no soportar de acuerdo con la Ley."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "De conformidad con el artículo 33.1 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, cuando de la gestión dimanante de fórmulas conjuntas de actuación entre varias Administraciones públicas se derive responsabilidad en los términos previstos en la presente Ley, las Administraciones intervinientes responderán frente al particular:",
+        "opciones": [
+          "En todo caso, de forma mancomunada.",
+          "En ningún caso, de forma solidaria.",
+          "En todo caso, de forma solidaria."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "A tenor del artículo 34.1 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, sólo serán indemnizables las lesiones producidas al particular provenientes de:",
+        "opciones": [
+          "En todo caso, daños que éste tenga el deber jurídico de soportar de acuerdo con la Ley.",
+          "Daños que éste no tenga el deber jurídico de soportar de acuerdo con la Ley.",
+          "Daños que éste tenga el deber de soportar de acuerdo con la normativa en vigor."
+        ],
+        "respuesta_correcta": 1
+      }
+    ]
   }
 }
