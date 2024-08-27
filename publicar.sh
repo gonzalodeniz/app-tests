@@ -23,7 +23,7 @@ fi
 # Hace merge en la rama master
 git checkout master
 git pull
-git merge develop --ff-only
+git merge develop
 git push
 
 # Crea el tag y lo publica
