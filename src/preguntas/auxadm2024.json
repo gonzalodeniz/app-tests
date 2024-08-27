@@ -188,5 +188,100 @@
         "respuesta_correcta": 0
       }
     ]
+  },
+  "Tema 3": {
+    "titulo": "El procedimiento administrativo II: Iniciación, Ordenación, Instrucción y Finalización del procedimiento administrativo. Tramitación Simplificada del procedimiento administrativo. Especialidades del procedimiento sancionador y del procedimiento en materia de la responsabilidad patrimonial. De la revisión de los actos en vía administrativa; Revisión de Oficio. Los recursos administrativos: objeto y clases.",
+    "banco_de_preguntas": [
+      {
+        "pregunta": "En virtud de lo establecido en el artículo 55.1 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas:",
+        "opciones": [
+          "Durante la tramitación del procedimiento, el órgano competente podrá abrir un período de información o actuaciones previas con el fin de conocer las circunstancias del caso concreto.",
+          "En ningún caso, el órgano competente podrá abrir un período de información o actuaciones previas con el fin de conocer las circunstancias del caso concreto y la conveniencia o no de iniciar el procedimiento.",
+          "Con anterioridad al inicio del procedimiento, el órgano competente podrá abrir un período de información o actuaciones previas con el fin de conocer las circunstancias del caso concreto y la conveniencia o no de iniciar el procedimiento."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "Según el artículo 68.1 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, si la solicitud de iniciación no reúne los requisitos que señala el artículo 66, y, en su caso, los que señala el artículo 67 u otros exigidos por la legislación específica aplicable, se requerirá al interesado para que, en un ________________, subsane la falta o acompañe los documentos preceptivos, con indicación de que, si así no lo hiciera, se le tendrá por desistido de su petición, previa resolución que deberá ser dictada en los términos previstos en el artículo 21.",
+        "opciones": [
+          "Plazo de cinco días.",
+          "Plazo de veinte días.",
+          "Plazo de diez días."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "De conformidad con el artículo 70 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, se entiende por expediente administrativo:",
+        "opciones": [
+          "El conjunto ordenado de documentos y anotaciones que no sirven de antecedente y fundamento a la resolución administrativa, así como las propuestas encaminadas a ejecutarla.",
+          "El conjunto ordenado de documentos y actuaciones que sirven de antecedente y fundamento a la resolución administrativa, así como las diligencias encaminadas a ejecutarla.",
+          "En ningún caso, el conjunto ordenado de documentos y actuaciones que sirven de antecedente y fundamento a la resolución administrativa."
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "Según el artículo 76 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, ¿En qué momento podrán los interesados aducir alegaciones y aportar documentos y otros elementos de juicio?",
+        "opciones": [
+          "En cualquier momento del procedimiento anterior al trámite de audiencia.",
+          "En cualquier momento del procedimiento.",
+          "En cualquier momento del procedimiento posterior al trámite de audiencia."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "De acuerdo con el art. 77.2 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, cuando la Administración no tenga por ciertos los hechos alegados por los interesados o la naturaleza del procedimiento lo exija, el instructor del mismo acordará la apertura de un período de prueba por un plazo:",
+        "opciones": [
+          "No superior a treinta días ni inferior a diez.",
+          "No superior a dos meses ni inferior a un mes.",
+          "No superior a quince días ni inferior a cinco."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "Según el artículo 84 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, pondrán fin al procedimiento administrativo:",
+        "opciones": [
+          "La resolución, el desistimiento, la renuncia al derecho en que se funde la solicitud, cuando tal renuncia no esté prohibida por el ordenamiento jurídico, y la declaración de caducidad.",
+          "En ningún caso, producirá la terminación del procedimiento la imposibilidad material de continuarlo por causas sobrevenidas.",
+          "En su todo, la renuncia al derecho en que se funde la solicitud, cuando tal renuncia esté prohibida por el ordenamiento jurídico."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "Según el artículo 91.2 de Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, en los procedimientos de responsabilidad patrimonial, será necesario que la resolución se pronuncie:",
+        "opciones": [
+          "Sobre la existencia o no de la relación de causalidad entre el funcionamiento del servicio público y la lesión producida y, en su caso, sobre la valoración del daño causado, la cuantía y el modo de la indemnización.",
+          "En ningún caso, sobre la existencia de la relación de causalidad entre el funcionamiento del servicio público y la lesión producida y, en su caso, sobre la valoración del daño causado, la cuantía y el modo de la indemnización.",
+          "Sobre el funcionamiento del servicio público y el mantenimiento del mismo, así como sobre la gravedad de la lesión producida al interesado."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "A tenor del artículo 107.2 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, la declaración de lesividad no podrá adoptarse:",
+        "opciones": [
+          "Una vez transcurridos cinco años desde que se dictó el acto administrativo y exigirá la previa audiencia de cuantos aparezcan como interesados en el mismo.",
+          "Una vez transcurridos tres años desde que se dictó el acto administrativo y exigirá la comparecencia de los interesados en el mismo.",
+          "Una vez transcurridos cuatro años desde que se dictó el acto administrativo y exigirá la previa audiencia de cuantos aparezcan como interesados en el mismo."
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "Según el artículo 112.1 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, contra las resoluciones y los actos de trámite, si estos últimos deciden directa o indirectamente el fondo del asunto, determinan la imposibilidad de continuar el procedimiento, producen indefensión o perjuicio irreparable a derechos e intereses legítimos, podrán interponerse por los interesados los _______________________, que cabrá fundar en cualquiera de los motivos de nulidad o anulabilidad previstos en los artículos 47 y 48 de esta Ley.",
+        "opciones": [
+          "Recursos de alzada y potestativo de reposición.",
+          "Recurso extraordinario de revisión.",
+          "Recurso contencioso administrativo."
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "A tenor del artículo 112.3 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, contra las disposiciones administrativas de carácter general:",
+        "opciones": [
+          "No cabrá recurso en vía administrativa.",
+          "Cabrá interponer recurso de reposición.",
+          "Cabrá interponer recurso de alzada."
+        ],
+        "respuesta_correcta": 0
+      }
+    ]
   }
 }
