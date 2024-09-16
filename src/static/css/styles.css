@@ -60,6 +60,10 @@ input[type="radio"] {
     color: white !important;
 }
 
+hr.sutil {
+    border-top: 1px solid #e0e0e0;
+}
+
 
 
 

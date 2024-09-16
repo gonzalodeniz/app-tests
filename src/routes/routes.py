@@ -41,3 +41,16 @@ def register_routes(app):
                                                 num_preguntas_total=num_preguntas_total, 
                                                 num_preguntas_actual=num_preguntas_actual)
 
+    @app.route('/pregunta_aleatoria')
+    def pregunta_aleatoria()->str:
+        pregunta = pm.preguntas_aleatorias()
+
+        if pregunta is None:
+            temas = pm.obtener_temas()
+            return render_template('index.html', temas=temas)
+
+        return render_template('pregunta.html',  tema="Aleatorio", 
+                                                pregunta=pregunta, 
+                                                num_preguntas_total=None, 
+                                                num_preguntas_actual=None,
+                                                modo_aleatorio=True)
