@@ -13,15 +13,27 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
-
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">  
 </head>
 <body>
     <div class="container">
-        <div class="contador_pregunta">
-            {{ num_preguntas_actual }} / {{ num_preguntas_total }}
-        </div>
+        <!-- Contenedor con Flexbox para alinear el ícono y el contador -->
+        <nav class="navbar d-flex justify-content-between align-items-center">
+            <a href="{{ url_for('index') }}" class="navbar-brand">
+            <i class="fas fa-home"></i>
+            </a>
+            <div class="contador_pregunta">
+                {% if num_preguntas_actual is not none and num_preguntas_total is not none %}
+                    {{ num_preguntas_actual }} / {{ num_preguntas_total }}
+                {% endif %}
+            </div>
+        </nav>
         <h1 class="text-center">{{ pregunta['pregunta'] }}</h1>
-        <form action="{{ url_for('hacer_pregunta', tema=tema) }}" method="get">
+
+        <!-- Configura el formulario para saltar a pregunta_aleatoria o secuencial  -->
+        {% set action_url = url_for('pregunta_aleatoria') if modo_aleatorio else url_for('hacer_pregunta', tema=tema) %}
+        <form action="{{ action_url }}" method="get">
             <div class="row">
                 {% for i in range(3) %}
                 <div class="col-12 mb-3">

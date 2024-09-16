@@ -12,12 +12,29 @@
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">  
 </head>
 <body>
 
     <div class="container">
+        <!-- Icono de la casa para volver al inicio -->
+        <nav class="navbar">
+            <a href="{{ url_for('index') }}" class="navbar-brand">
+               <i class="fas fa-home"></i>
+            </a>
+        </nav>
+
         <h1 class="text-center">Elige un Tema</h1>
+        <!-- Botón de Preguntas Aleatorias -->
+        <div class="text-center my-4">
+            <a href="{{ url_for('pregunta_aleatoria') }}" class="d-block py-2 px-3 bg-white rounded shadow-sm">
+                Preguntas Aleatorias
+            </a>
+        </div>
+        <!-- Línea horizontal sutil -->
+        <hr class="sutil">
         <nav>
             <ul class="list-unstyled tema-lista">
                 {% for tema in temas %}

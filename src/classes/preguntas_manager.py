@@ -1,3 +1,6 @@
+import random
+
+
 class PreguntasManager:
     def __init__(self, data):
         """
@@ -59,3 +62,17 @@ class PreguntasManager:
         """
         self.indice_pregunta_actual = 0
 
+    def preguntas_aleatorias(self):
+        """
+        Devuelve una pregunta aleatoria de cualquier tema.
+        
+        :return: Un diccionario con una pregunta y sus opciones, o None si no hay preguntas.
+        """
+        todas_preguntas = []
+        for tema in self.data.values():
+            todas_preguntas.extend(tema["banco_de_preguntas"])
+
+        if todas_preguntas:
+            return random.choice(todas_preguntas)
+        else:
+            return None
